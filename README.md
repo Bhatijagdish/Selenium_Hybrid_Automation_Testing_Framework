@@ -11,36 +11,32 @@ This way the test data can be extracted from excel and will dynamically run the 
 Tests are written in Java 8 using TestNG framework.
 
 Selenium_Hybrid_Automation_Testing_Framework
-											|
-											--src
-												|
-												--main
-													|
-													--java
-														|
-														--Business_Logic
-																		|
-																		ExcelOperations.java
-																		Utils.java
-																		WebDriver.java
-														--main.java
+	|
+	--src
+		|
+		--main
+			|
+			--java
+				|
+				--Business_Logic
+					|
+					--*.java
+				--main.java
 
-													--resources
-															|
-															--repository
-																		|
-																		--*.properties
+			--resources
+					|
+					--repository
+								|
+								--*.properties
+		--test
+			|
+			--java
+				|
+				--*.java
+	--pom.xml ->
+	--README
 
-												--test
-													|
-													--java
-														|
-														--*.java
-
-											--pom.xml ->
-
-											--README
-
+	
 * How To:
 -------------------------------------------------
 
