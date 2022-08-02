@@ -6,9 +6,11 @@ This is a hybrid framework which can help to get the testing results in excel as
 
 This way the test data can be extracted from excel and will dynamically run the tests.
 
--------------------------------------------------
-
 Tests are written in Java 8 using TestNG framework.
+
+
+* Directory Structure
+-------------------------------------------------
 
 Selenium_Hybrid_Automation_Testing_Framework
 	|
@@ -18,28 +20,28 @@ Selenium_Hybrid_Automation_Testing_Framework
 			|
 			--java
 				|
-				--Business_Logic
+				--businessLogic
 					|
-					--*.java
+					-- * .java
 				--main.java
-
 			--resources
+				|
+				--repository
 					|
-					--repository
-								|
-								--*.properties
+					--* .properties
+				--excelfiles
+					|
+					--* .xlsx
 		--test
 			|
 			--java
 				|
-				--*.java
-	--pom.xml ->
+				--* .java
+	--pom.xml
 	--README
 
-	
 * How To:
 -------------------------------------------------
-
 
 
 java org.testng.TestNG %projectLocation%\testng.xml
