@@ -23,12 +23,15 @@ Selenium_Hybrid_Automation_Testing_Framework
 				--businessLogic
 					|
 					-- * .java
+
 				--main.java
+				|
 			--resources
 				|
 				--repository
 					|
 					--* .properties
+
 				--excelfiles
 					|
 					--* .xlsx
@@ -38,6 +41,7 @@ Selenium_Hybrid_Automation_Testing_Framework
 				|
 				--* .java
 	--pom.xml
+	
 	--README
 
 * How To:
